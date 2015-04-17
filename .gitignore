@@ -1,3 +1,4 @@
+*.lock
 *.gem
 *.rbc
 /.config
@@ -33,3 +34,11 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# fixtures log files
+spec/fixtures/graph.db/nioneo_logical.log.*
+spec/fixtures/graph.db/tm_tx_log*
+spec/fixtures/graph.db/index/lucene.log.*
+spec/fixtures/graph.db/messages.log
+spec/fixtures/graph.db/index/lucene-store.db
+spec/fixtures/graph.db/neostore
