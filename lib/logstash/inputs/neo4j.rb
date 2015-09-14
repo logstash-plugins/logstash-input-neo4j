@@ -54,6 +54,10 @@ class LogStash::Inputs::Neo4j < LogStash::Inputs::Base
     end
   end # def run
 
+  def stop
+    @scheduler.shutdown if @scheduler
+  end
+
   private
   def setup_scheduler(queue)
     @scheduler = Rufus::Scheduler.new

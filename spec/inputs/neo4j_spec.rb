@@ -26,6 +26,12 @@ describe LogStash::Inputs::Neo4j do
     expect { plugin.close }.to_not raise_error
   end
 
+  context "when interrupting the plugin" do
+    it_behaves_like "an interruptible input plugin" do
+      let(:config) { { "path" => path, "query" => query, "schedule" => "* 1 * * *"} }
+    end
+  end
+
   context "event retrieval" do
 
     let(:logstash_queue) { Queue.new }
