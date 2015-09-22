@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
 
   if RUBY_PLATFORM == 'java'
     s.platform = RUBY_PLATFORM
-    s.add_runtime_dependency 'neo4j', '>= 3.0'
+    s.add_runtime_dependency 'neo4j', '~> 4.0.0'
     s.add_runtime_dependency 'neo4j-community', '~> 2.0.0'
   end
 
