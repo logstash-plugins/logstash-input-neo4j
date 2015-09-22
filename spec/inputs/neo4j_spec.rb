@@ -22,8 +22,8 @@ describe LogStash::Inputs::Neo4j do
     expect { plugin.register }.to_not raise_error
   end
 
-  it "teardown without errors" do
-    expect { plugin.teardown }.to_not raise_error
+  it "close without errors" do
+    expect { plugin.close }.to_not raise_error
   end
 
   context "event retrieval" do
