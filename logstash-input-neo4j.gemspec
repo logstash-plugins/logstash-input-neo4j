@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name            = 'logstash-input-neo4j'
-  s.version         = '2.0.3'
+  s.version         = '2.0.4'
   s.licenses        = ['Apache License (2.0)']
   s.summary         = "Logstash Input for Neo4j"
   s.description     = "Output events to Neo4j"
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   # Special flag to let us know this is actually a logstash plugin
   s.metadata = { "logstash_plugin" => "true", "logstash_group" => "output" }
 
-  s.add_runtime_dependency "logstash-core", ">= 2.0.0", "< 6.0.0.alpha1"
+  s.add_runtime_dependency "logstash-core-plugin-api", "~> 1.0"
   s.add_runtime_dependency 'rufus-scheduler', '3.0.9'
 
   if RUBY_PLATFORM == 'java'
