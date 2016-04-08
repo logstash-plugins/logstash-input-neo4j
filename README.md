@@ -1,7 +1,6 @@
 # Logstash Plugin
 
-[![Build
-Status](http://build-eu-00.elastic.co/view/LS%20Plugins/view/LS%20Inputs/job/logstash-plugin-input-neo4j-unit/badge/icon)](http://build-eu-00.elastic.co/view/LS%20Plugins/view/LS%20Inputs/job/logstash-plugin-input-neo4j-unit/)
+[![Travis Build Status](https://travis-ci.org/logstash-plugins/logstash-input-neo4j.svg)](https://travis-ci.org/logstash-plugins/logstash-input-neo4j)
 
 This is a plugin for [Logstash](https://github.com/elastic/logstash).
 
