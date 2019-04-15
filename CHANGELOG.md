@@ -1,3 +1,6 @@
+## 2.0.8
+  - Fixed formatting for heading [#tbd](https://github.com/logstash-plugins/logstash-input-neo4j/pull/tbd)
+
 ## 2.0.7
   - Docs: Set the default_codec doc attribute.
 
