@@ -1,3 +1,6 @@
+## 2.0.8
+  - Fixed formatting for heading [#6](https://github.com/logstash-plugins/logstash-input-neo4j/pull/6)
+
 ## 2.0.7
   - Docs: Set the default_codec doc attribute.
 
