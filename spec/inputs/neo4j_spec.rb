@@ -1,4 +1,5 @@
 require_relative "../spec_helper"
+require "logstash/devutils/rspec/shared_examples"
 require "logstash/plugin"
 require "logstash/json"
 
